@@ -13,22 +13,24 @@
     <header class="header">
         <div class="wrapper">
             <div class="header_container">
-                <a href="#" class="header_logo">
+                <a href="#" class="header_logo header_logo--margin">
                     <img src="./assets/images/png/Logo.png" alt="Sport Betting" class="logo_img">
                 </a>
                 <form class="form" action="https://fom.in.ua/echo" method="POST">
                     <label class="form_label">
-                        <input type="text" name="name" class="form_input">
+                        <input type="text" name="name" class="form_input" placeholder="لماكلا كمسا">
                     </label>
                     <p class="form_text">
                         كب صاخلا فتاهلا مقرو
                     </p>
-                    <label class="form_label">
-                        <input type="tel" name="tel-pref" class="form_input">
-                    </label>
-                    <label class="form_label">
-                        <input type="tel" name="tel" class="form_input">
-                    </label>
+                    <div class="form_box--phone">
+                        <label class="form_label form_label--margin">
+                            <input type="tel" name="tel-pref" class="form_input form_input--phone">
+                        </label>
+                        <label class="form_label">
+                            <input type="tel" name="tel" class="form_input">
+                        </label>
+                    </div>
                     <div class="form_confiramtion">
                         <p class="form_text" id="yes">
                             * .اًمﺎﻋ 18 يﺮﻤﻋ ﻦﻣ ﺮﺜﻛأ ﺪﻴﻛﺄﺘﻟاو ﺔﻴﺻﻮﺼﺨﻟا ﺔﺳﺎﻴﺳو 
@@ -37,7 +39,7 @@
                             <input type="checkbox" name="18+">
                         </label>
                     </div>
-                    <button type="submit">ناهر عض</button>
+                    <button class="form_button" type="submit">ناهر عض</button>
                 </form>
             </div>
         </div>
